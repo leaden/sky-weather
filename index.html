@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -10,15 +10,56 @@
 	<link rel="stylesheet" type="text/css" href="dist/css/style.min.css">
 </head>
 <body>
+<section>
 <div class="container-fluid">
+<div class="row">
+	<div class="col-xs-12 text-center">
+		<img id="sol" src="dist/iconos/1498814593_sun.png">
+		<p class="grados"></p>
+	</div>
+	<div class="row">
+		<div class="col-xs-6">
+			<p>wind</p>
+		</div>
+		<div class="col-xs-6">
+			<p></p>
+		</div>
+	</div>
+	<div class="row">
+		<div class="col-xs-6">
+			<p>Humidity</p>
+		</div>
+		<div class="col-xs-6">
+			<p></p>
+		</div>
+	</div>
+	<div class="row">
+		<div class="col-xs-6">
+		<p>UV Index</p>
+		</div>
+		<div class="col-xs-6">
+			<p></p>
+		</div>
+	</div>
+	<div class="row">
+		<div class="col-xs-6">
+			<p>Pressure</p>
+		</div>
+	</div>
+</div>
 	<div class="row">
 		<div class="col-xs-12">
 			<a class="btn btn-default btn-block" href="predicciones.html" role="button">PREDICCIONES DE LA SEMANA</a>
 		</div>
 	</div>
 </div>
-
+</section>
+<script async defer
+    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDTTU_TgIO_6jB7UUOAOMhE3b8UYnA-hLY&callback=initMap">
+    </script>
+<script src="http://api.flickr.com/services/rest/?method=flickr.photos.search&api_key=17660d0d33030a684ee3af1e8300768f&tags=flower&per_page=3&format=json"></script>
 <script src="https://use.fontawesome.com/1370cbf9c0.js"></script>
 <script src="dist/js/script.js"></script>
 </body>
 </html>
+
